@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color:black !important;
+}
+
+.image-box {
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+  
+@media (min-width: 768px) {
+    .image-box {
+        background-position: center;
+        background-size: contain;
+    }
+}
+
+.expires{
+    display: inline-block;
+    color:white; 
+    background-color:#d37c7c !important;
+    border:4px solid #d37c7c;
+    border-radius:8px;
+    float:right;
+    align-self:self-end;
+}
